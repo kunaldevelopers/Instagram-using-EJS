@@ -48,3 +48,6 @@ A simple Node.js application that serves an "Instagram-like" profile page dynami
 
 - You can modify the EJS template to add more dynamic content, styling, or interactive elements.
 - Feel free to adjust the route pattern, server port number, and other configuration options as needed.
+
+## Developer
+ - *Contact* Globes24media@gmail.com
