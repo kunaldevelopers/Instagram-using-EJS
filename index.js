@@ -24,5 +24,3 @@ app.get("/in/:username", (req, res)=>{
 app.listen(port, (req, res)=>{
     console.log(`Port is Listening at ${port}`);
 });
-
-
