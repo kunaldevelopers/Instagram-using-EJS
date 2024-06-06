@@ -1,0 +1,57 @@
+body {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light background color */
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .follow-btn {
+    background-color: #3879f0; /* Blue for follow button */
+    color: white;
+  }
+  
+  .message-btn {
+    background-color: #ddd; /* Gray for message button */
+    color: black;
+  }
+  
+  p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #888; /* Gray for follower and following info */
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ddd; /* Light gray separator line */
+    margin: 15px 0;
+  }
+  
+  img {
+    height: 200px; /* Increased image height for better visibility */
+    width: 200px;
+    border-radius: 5px;
+    margin: 10px auto; /* Center the image */
+  }
+  
+  .post-info {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666; /* Darker gray for likes and comments */
+  }
+  
