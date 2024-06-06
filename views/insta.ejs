@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h2>This Id Belongs To @<%= username %> </h2>
+    <h2>This Id Belongs To @<%= data.name %> </h2>
     <button>Follow</button><button>Message</button>
+    <p>Follower: <%= data.followers %> &nbsp; Following: <%= data.following %></p>
+    <hr>
+    <% for(let post of data.posts){%>
+        <img src="<%= post.image %>" alt="">
+        <p>Like: <%= post.likes %>&nbsp;&nbsp; Comments: <%= post.comments %></p>
+        <hr>
+   <% } %>
+
 </body>
+<script src="/app.js"></script>
 </html>
